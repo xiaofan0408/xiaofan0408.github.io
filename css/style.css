@@ -26,14 +26,14 @@ img,a,a img{
 	background: #00c0ff;
 }
 .banner-wrap{
-	width:82%; 
+	width:1100px; 
 	margin:0 auto; 
 	overflow:hidden; 
 	height:auto; 
 	margin-top:30px;
 }
 .header{
-	width: 80%;
+	width: 1100px;
 	margin: 0px auto;
 }
 .logo{
@@ -145,7 +145,7 @@ img,a,a img{
 	width: 100%;
 }
 .body-wrap .body{
-	width: 80%;
+	width: 1080px;
 	margin: 0px auto;
 }
 .body-wrap .body .leftbody{
