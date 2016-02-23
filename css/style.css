@@ -102,7 +102,7 @@ img,a,a img{
 }
 .banner { 
 	float:left; 
-	width:900px; 
+	width:80%; 
 	padding:20px; 
 	overflow:hidden; 
 	background:#ffffff;
@@ -180,7 +180,12 @@ img,a,a img{
 	margin-right: 25px;
 	margin-bottom: 25px;
 }
-.body-wrap .body .leftbody .leftbody-content a{
+.body-wrap .body .leftbody .leftbody-content ul li p{
+
+	display: inline-block;
+	
+}
+.body-wrap .body .leftbody .leftbody-content .more a{
 	width: 100px;
 	clear: both;
 	display: block;
@@ -191,7 +196,7 @@ img,a,a img{
 	background: #6EBB1F;
 	color:#ffffff;
 }
-.body-wrap .body .leftbody .leftbody-content  a:hover{
+.body-wrap .body .leftbody .leftbody-content  .more a:hover{
     background: #33cdff;
 }
 .body-wrap .body .rightbody .rightbody-text h1{
@@ -267,6 +272,9 @@ img,a,a img{
     color:#ffffff;
     margin-top: 20px;
     margin-left: 30px;
+}
+.body-wrap .body .rightbody .rightbody-content2 .button-link a:hover{  
+   background:#dd31ae;
 }
 .body-wrap .body .rightbody .call{
 
