@@ -4,9 +4,6 @@
 	font-family: cursive;
 	font-size: 13px;
 }
-body{
-	background: #f1f1f1;
-}
 ul,li{
 	list-style:none;
 	outline: none;
@@ -15,120 +12,110 @@ img,a,a img{
 	border: none;
 	text-decoration: none;
 }
+body{
+	background: #f1f1f1;
+}
+.clearing{
+	clear: both;
+}
 .header-wrap{
 	width: 100%;
-	height: 90px;
+    height: 90px;
 	background: rgb(34,39,45);
+}
+.header-wrap .header{
+	width: 80%;
+	margin: 0px auto;
+}
+.header-wrap .header .logo{
+	width: 60%;
+	float: left;
+	height: 90px;
+	line-height: 90px;
+
+}
+.header-wrap .header .logo h1{
+	color:#ffffff; 
+	font-size:36px; 
+	text-transform:uppercase; 
+	font-weight:normal;
 }
 .menu-wrap{
 	width: 100%;
 	height: 75px;
 	background: #00c0ff;
 }
-.banner-wrap{
-	width:1100px; 
-	margin:0 auto; 
-	overflow:hidden; 
-	height:auto; 
-	margin-top:30px;
-}
-.header{
-	width: 1100px;
-	margin: 0px auto;
-}
-.logo{
-	float: left;
-	width:500px;
-	height: 90px;
-	line-height: 90px;
-}
-.logo h1{
-	color:#ffffff; 
-	font-size:36px; 
-	text-transform:uppercase; 
-	font-weight:normal;
-}
-.search{
-	width: 380px;
-	float: right;
-	margin-top:30px;
-}
-.search .text{
-    width:220px; 
-    height: 30px;
-    background: rgb(34,39,45);
-    color:#ffffff;
-    line-height:30px; 
-	padding-left:10px;
-	border: 1px solid black;
-}
-.search .submit{
-	width: 70px;
-	height: 30px;
-}
-.menu{
+.menu-wrap .menu{
 	width: 80%;
 	margin: 0px auto;
 }
-.menu ul li { 
-	float:left; 
-	width:100px; 
-	margin-right:1px;
+.menu-wrap .menu ul li{
+	float: left;
+	width: 10%;
 }
-.menu ul li a { 
-	display:block; 
-	width:100px; 
+.menu-wrap .menu ul li a{
+    display:block; 
+	width:100%;
 	height:75px; 
 	line-height:75px; 
 	text-align:center; 
 	color:#ffffff; 
 	background:#1ac6ff;
 }
-.menu ul li a:hover { 
-	background:#33cdff;
+.menu-wrap .menu ul li a:hover{
+    background:#33cdff;
 }
-.menu a{
-	font-size: 20px;
+.banner-wrap{
+	width: 100%;
+	margin-top: 30px;
 }
-.banner-left { 
+.banner-wrap .banner-body{
+	width: 80%;
+	margin: 0px auto;
+}
+.banner-wrap .banner-left{
+	margin: 0px auto;
 	float:left; 
 	height: 500px;
-	width:20px;
+	width:2%;
 }
-.bannre-right { 
-	float:right; 
+.banner-wrap .banner-right{
+	margin: 0px auto;
+	float:left; 
 	height: 500px;
-	width:20px;
+	width:2%;
 }
-.banner { 
+.banner-wrap .banner { 
+	margin: 0px auto;
 	float:left; 
 	width:80%; 
 	padding:20px; 
 	overflow:hidden; 
 	background:#ffffff;
 }
-.banner-image { 
-	margin:0 auto; 
+.banner-wrap .banner .banner-image { 
+	margin:0px auto; 
 	background:url(../images/bg02.jpg) no-repeat; 
 	height:500px; 
 	text-align:right;
 }
-.banner-data{
+.banner-wrap .banner .banner-image .banner-data{
 	float: right;
 	width: 500px;
 }
-.banner-data h1{
-	
+.banner-wrap .banner .banner-image .banner-data h1{
+
 	font-size: 80px;
 	margin-right: 20px;
 	margin-top: 20px;
 	color: #ffffff;
+
 }
-.banner-data .more{
-	width: 100px;
-	margin:10px auto;
-}
-.banner-data .more a{
+.banner-wrap .banner .banner-image .banner-data .more{
+   width: 100px;
+   margin: 10px auto;
+} 
+.banner-wrap .banner .banner-image .banner-data .more a{
 	display: block;
 	margin:0px auto;
 	height: 40px;
@@ -138,27 +125,32 @@ img,a,a img{
 	background: #6EBB1F;
 	color:#ffffff;
 }
-.banner-data .more a:hover{
+.banner-wrap .banner .banner-image .banner-data .more a:hover{
     background: #33cdff;
 }
 .body-wrap{
 	width: 100%;
+
 }
 .body-wrap .body{
-	width: 1080px;
-	margin: 0px auto;
+	width: 80%;
+	margin:0px auto;
+	overflow: hidden;
 }
 .body-wrap .body .leftbody{
 	width: 60%;
 	float: left;
 }
 .body-wrap .body .rightbody{
-	width: 40%;
+	width: 35%;
 	float: right;
+}
+.body-wrap .body .leftbody .leftbody-text{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .body-wrap .body .leftbody .leftbody-text h1{
 	font-size: 40px;
-	margin-top: 30px;
 	color: #6EBB1F;
 	padding: 5px;
 	font-family: fantasy;
@@ -167,12 +159,8 @@ img,a,a img{
 	font-size: 15px;
 	padding: 5px;
 }
-.body-wrap .body .leftbody .leftbody-content{
-	margin-top: 30px;
-}
-
 .body-wrap .body .leftbody .leftbody-content ul li{
-	width: 260px;
+	width: 40%;
 	height: 170px;
 	background: #ffffff;
 	padding: 15px;
@@ -180,12 +168,7 @@ img,a,a img{
 	margin-right: 25px;
 	margin-bottom: 25px;
 }
-.body-wrap .body .leftbody .leftbody-content ul li p{
-
-	display: inline-block;
-	
-}
-.body-wrap .body .leftbody .leftbody-content .more a{
+.body-wrap .body .leftbody .more a{
 	width: 100px;
 	clear: both;
 	display: block;
@@ -196,27 +179,28 @@ img,a,a img{
 	background: #6EBB1F;
 	color:#ffffff;
 }
-.body-wrap .body .leftbody .leftbody-content  .more a:hover{
-    background: #33cdff;
+.body-wrap .body .leftbody .more a:hover{
+     background: #33cdff;
+}
+.body-wrap .body .rightbody .rightbody-text{
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .body-wrap .body .rightbody .rightbody-text h1{
 	font-size: 40px;
-	margin-top: 30px;
 	color: #6EBB1F;
 	padding: 5px;
 	font-family: fantasy;
 }
+
 .body-wrap .body .rightbody .rightbody-text p{
 	font-size: 15px;
 	padding: 5px;
 }
 .body-wrap .body .rightbody .rightbody-content1{
-   
-    margin-top: 30px;
-    width:70%;
+	width:70%;
 	background:#ffffff; 
 	text-align: center;
-
 }
 .body-wrap .body .rightbody .rightbody-content1 h1{
 
@@ -230,19 +214,13 @@ img,a,a img{
 	border-bottom:1px solid #ebebeb;
 	padding: 15px;
 }
-.body-wrap .body .rightbody .rightbody-content1 ul li a{
-    color:#939191;
-}
-.body-wrap .body .rightbody .rightbody-content1 ul li a:hover{
-    color: #dd31ae;
-}
 .body-wrap .body .rightbody .rightbody-content2{
    
-    margin-top: 30px;
     width:70%;
 	background:#ffffff; 
 	text-align: center;
 	height: 240px;
+	margin-top: 30px;
 }
 .body-wrap .body .rightbody .rightbody-content2 .title h1{
 
@@ -278,24 +256,24 @@ img,a,a img{
 }
 .body-wrap .body .rightbody .call{
 
-	margin-top: 25px;
+	
 	width: 70%;
 	background:#dd31ae; 
 	text-align: center;
-	margin-bottom: 30px;
+	margin-top:  25px ;
 }
 .body-wrap .body .rightbody .call h1{
 	font-size: 22px;
 	padding: 15px;
 	color: #ffffff;
 }
-
 .foot-wrap{
 	clear: both;
 	margin-top: 30px;
 	width: 100%;
 	height: 90px;
 	background: #00c0ff;
+	overflow: hidden;
 }
 .foot-wrap .foot {
 	width: 80%;
