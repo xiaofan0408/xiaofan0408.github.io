@@ -24,7 +24,7 @@ body{
 	background: rgb(34,39,45);
 }
 .header-wrap .header{
-	width: 80%;
+	width: 1080px;
 	margin: 0px auto;
 }
 .header-wrap .header .logo{
@@ -46,7 +46,7 @@ body{
 	background: #00c0ff;
 }
 .menu-wrap .menu{
-	width: 80%;
+	width: 1080px;
 	margin: 0px auto;
 }
 .menu-wrap .menu ul li{
@@ -70,7 +70,7 @@ body{
 	margin-top: 30px;
 }
 .banner-wrap .banner-body{
-	width: 80%;
+	width: 1080px;
 	margin: 0px auto;
 }
 .banner-wrap .banner-left{
@@ -133,7 +133,7 @@ body{
 
 }
 .body-wrap .body{
-	width: 80%;
+	width: 960px;
 	margin:0px auto;
 	overflow: hidden;
 }
